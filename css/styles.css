@@ -51,6 +51,7 @@ img {
 
 .container{
     border: 5px solid black;
+
 }
 
 .col-12{
@@ -61,3 +62,14 @@ img {
 
 /* Indhold, tekst slut */
 
+.Overskrift2{
+    font-size: x-large;
+}
+
+.Overskrift3{
+    font-size: x-large;
+}
+
+.Overskrift4{
+    font-size: x-large;
+}
