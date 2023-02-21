@@ -83,24 +83,33 @@ img {
     padding: 50px;
 }
 
-
-input[type=text], select, textarea {
+.input [type=text], select, textarea {
     width: 100%;
     padding: 10px;
-    border: none;
-    font-family: 'Cinzel', serif;
-    margin: auto;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-#besked{
-    height: 200px;
+.kontakt {
+    border-radius: 5px;
+    background-color: #FFF6E8;
+    padding: 50px;}
+
+button{
+    background-color: #FEA9A1;
+    color: #FFF6E8;
+    padding: 10px;
 }
 
-input[type=submit] {
-    background-color:#b9a696;
-    color: white;
-    width: 100%;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 2000px;
+#navn{
+    padding: 10px;
+}
+#eftername{
+    padding: 10px;
+}
+#mail{
+    padding: 10px;
 }
