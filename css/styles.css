@@ -77,3 +77,30 @@ img {
 .Overskrift4{
     font-size: x-large;
 }
+
+.overskrift5{
+    margin: auto;
+    padding: 50px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-family: 'Cinzel', serif;
+    margin: auto;
+}
+
+#besked{
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color:#b9a696;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2000px;
+}
